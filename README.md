@@ -1,10 +1,4 @@
 # COSF-Net
-
-> **Manuscript under review** at *The Visual Computer*, Springer Nature.  
-> Authors: Yawei Ji, Yaqin Zhao\*, Xu Lu, Xiangna Sun  
-> Nanjing Forestry University, Nanjing, China  
-> \* Corresponding author: yaqinzhao@163.com
-
 ---
 
 ## Overview
