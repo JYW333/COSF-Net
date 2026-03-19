@@ -1,0 +1,36 @@
+
+# Core deep learning
+
+torch==1.12.1+cu113
+
+torchvision==0.13.1+cu113
+
+numpy==1.24.4
+
+# SlowFast framework dependencies
+
+fvcore==0.1.5.post20221221
+
+detectron2==0.6
+
+pytorchvideo==0.1.5
+
+# Video and image processing
+
+opencv-python==4.11.0.86
+
+Pillow==8.4.0
+
+# Utilities
+
+scipy==1.10.1
+
+tqdm==4.67.1
+
+pyyaml==6.0.2
+
+yacs==0.1.8
+
+cat > models/__init__.py << 'EOF'
+from .custom_attention_3d import MultiScaleFCALayer3D, DynamicContextBiFormer3D
+from .custom_video_model_builder import SlowFastDualAttention
