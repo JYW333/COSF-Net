@@ -40,9 +40,16 @@ COSF-Net/
 │   ├── custom_attention_3d.py        # MS-FCA-3D and DC-BiFormer-3D
 │   └── custom_video_model_builder.py # Full COSF-Net (SlowFastDualAttention)
 ├── data/
-│   └── README.md                     # Dataset download and preparation guide
+│   ├── README.md                     # Dataset download and preparation guide
+│   ├── animal_kingdom/
+│   │   ├── filter_feline_subset.py   # Feline subset extraction
+│   │   ├── analyze_video_enhanced.py # Duration and statistics analysis
+│   │   └── Video Dataset Analyzer.py # Local video verification
+│   └── mammalnet/
+│       ├── analyze_big_cats_enhanced_v2.py  # Subset extraction and stats
+│       └── count.py                  # Final split verification
 ├── requirements.txt
-├── LICENSE                           # CC BY-NC 4.0
+├── LICENSE
 └── README.md
 ```
 
