@@ -23,8 +23,6 @@ module composed of two novel 3D attention sub-modules:
 | Animal Kingdom (feline subset) | **83.12%** | lower than baselines | lower than baselines |
 | MammalNet (feline subset) | **64.30%** | lower than baselines | lower than baselines |
 
-Outperforms SlowFast, Dual-SlowFast, MViTv2, VideoMAEV2, UniFormerV2, and others.
-
 ---
 
 ## Repository Structure
